@@ -774,8 +774,19 @@ h4 {
     background-color: #F3976C;
 }
 
+:after,
+ :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 .tc-white {
     color: #ffffff!important;
+}
+
+.tc-black {
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine {
