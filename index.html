@@ -192,7 +192,13 @@
                 <div class="row tight-width-whitespace portfolio-row">
                     <div class="col-sm-6">
                         <!--ancrage href à changer au lieu de # on met l'adressse de la photo-->
-                        <a href="img/1.webp" data-lightbox="img/1.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.webp" alt="la photo de la refonte du site" class="img-responsive portfolio-thumb" /></a>
+                        <a href="img/1.webp" data-lightbox="img/1.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
+                            <picture>
+                                <source srcset="img/1.webp" type="image/webp">
+                                <source srcset="img/1.jpg" type="image/jpeg">
+                                <img src="img/1.jpg" alt="la photo de la refonte du site" class="img-responsive portfolio-thumb" />
+                            </picture>
+                        </a>
                         <h3 class="mg-md text-center">
                             Refonte d'un site web pour un journal local
                         </h3>
